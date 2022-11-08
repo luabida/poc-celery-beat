@@ -1,25 +1,8 @@
-name: poc-arrow
+name: poc-celery-beat
 channels:
-- nodefaults
-- conda-forge
+  - nodefaults
+  - conda-forge
 dependencies:
-# build
-- compilers
-- compiler-rt
-- clangdev 13.*
-- clangxx 13.*
-- cmake
-- llvmdev 13.*
-- lld 13.*
-- meson
-- ninja
-- pkg-config
-# run
-- arrow-cpp 8.*
-- arrow-c-glib 8.*
-- cli11
-- glog
-# dev
-- pre-commit
-- cmake-format
-- cppcheck
+  - python=3.9
+  - make
+  - celery #

@@ -40,13 +40,8 @@ jobs:
 
     - name: build poc-arrow-cpp
       run: |
-        cd arrow-cpp
+        #@###@#@#@#@
         make build
-
-    - name: build poc-arrow-c
-      run: |
-        cd arrow-c
-        make meson-build
 
     - name: lint
       run: |

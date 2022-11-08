@@ -50,13 +50,13 @@ If you are proposing a feature:
 
 ## Get Started!
 
-Ready to contribute? Here’s how to set up `poc-llvm` for local development.
+Ready to contribute? Here’s how to set up `poc-celery-beat` for local development.
 
-1.  Fork the `poc-llvm` repo on GitHub.
+1.  Fork the `poc-celery-beat` repo on GitHub.
 
 2.  Clone your fork locally:
 ```bash
-$ git clone git@github.com:your_name_here/poc-llvm.git
+$ git clone git@github.com:your_name_here/poc-celery-beat.git
 ```
 
 3.  Prepare your local development environment:
@@ -75,7 +75,7 @@ Now you can make your changes locally.
 5.  When you’re done making changes, check the compilation and the tests:
 
 ```bash
-$ make cmake-build-with-tests
+$ make #@###@#@#@#@
 $ make run-tests
 $ pre-commit run --all-files
 ```
