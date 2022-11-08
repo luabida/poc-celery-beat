@@ -37,13 +37,3 @@ jobs:
         channel-priority: true
         activate-environment: poc-arrow
         environment-file: conda/dev.yaml
-
-    - name: build poc-arrow-cpp
-      run: |
-        #@###@#@#@#@
-        make build
-
-    - name: lint
-      run: |
-        pre-commit install
-        pre-commit run --all-files
